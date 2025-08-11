@@ -82,13 +82,13 @@ const CARD_SLOTS = ["header", "body", "footer"] as const;
 // Create a slot manager with the predefined slots
 const CardSlotManager = new SlotManager(CARD_SLOTS);
 
-// Create fill components for each slot
+// Create fill components for each slot (type-safe)
 const Header = CardSlotManager.createFill("header");
 const Body = CardSlotManager.createFill("body");
 const Footer = CardSlotManager.createFill("footer");
 
 function Card({ children }) {
-  // Extract the slot content using the slot manager
+  // Extract the slot content using the slot manager (type-safe)
   const { header, body, footer, rest } = CardSlotManager.useSlots(children);
 
   return (
