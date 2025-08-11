@@ -40,9 +40,6 @@ describe('createFill and useSlots', () => {
   })
 
   it('should handle empty slots', () => {
-    // Create fill components
-    const _Header = createFill('header')
-
     // Create a component that uses slots
     function Component({ children }: { children: React.ReactNode }) {
       const { header, rest } = useSlots<'header'>(children)
