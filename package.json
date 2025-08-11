@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/slot-fill.git"
+    "url": "git+https://github.com/frstycodes/slot-fill.git"
   },
   "keywords": [
     "react",
@@ -43,9 +43,9 @@
   "author": "Sandesh Pandey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/slot-fill/issues"
+    "url": "https://github.com/frstycodes/slot-fill/issues"
   },
-  "homepage": "https://github.com/username/slot-fill#readme",
+  "homepage": "https://github.com/frstycodes/slot-fill#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"

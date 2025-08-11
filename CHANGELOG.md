@@ -24,7 +24,7 @@ All notable changes to this project will be documented in this file.
 
 # Changelog
 
-## [v0.1.0](https://github.com/username/slot-fill/compare/v0.0.0...v0.1.0) - (2023-12-25)
+## [v0.1.0](https://github.com/frstycodes/slot-fill/compare/v0.0.0...v0.1.0) - (2023-12-25)
 
 ### Features
 
