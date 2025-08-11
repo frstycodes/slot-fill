@@ -72,6 +72,7 @@ jobs:
           if [ "$LAST_TAG" != "v$CURRENT_VERSION" ]; then
             echo "New version detected: v$CURRENT_VERSION"
             echo "should_publish=true" >> $GITHUB_OUTPUT
+            echo "version=$CURRENT_VERSION" >> $GITHUB_OUTPUT
           else
             echo "No version change detected"
             echo "should_publish=false" >> $GITHUB_OUTPUT
@@ -87,8 +88,8 @@ jobs:
         with:
           generateReleaseNotes: true
           prerelease: false
-          tag: v${{ steps.version.outputs.version || steps.check-version.outputs.version }}
-          name: v${{ steps.version.outputs.version || steps.check-version.outputs.version }}
+          tag: v${{ steps.check-version.outputs.version }}
+          name: v${{ steps.check-version.outputs.version }}
           body: |
             Please refer to [CHANGELOG.md](./CHANGELOG.md) for details.
 
