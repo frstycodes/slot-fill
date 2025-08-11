@@ -2,7 +2,7 @@
 const cfg = {
   testEnvironment: 'jsdom',
   testMatch: ['<rootDir>/tests/**/*.test.(ts|tsx)'],
-  setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
+  setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
   globals: {
     __DEV__: true,
   },
