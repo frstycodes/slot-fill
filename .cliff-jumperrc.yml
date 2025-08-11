@@ -1,0 +1,3 @@
+name: '@frsty/slot-fill'
+packagePath: '.'
+commitMessageTemplate: 'chore(release): release {{new-version}}'

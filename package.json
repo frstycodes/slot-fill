@@ -1,0 +1,100 @@
+{
+  "name": "@frsty/slot-fill",
+  "version": "0.1.0",
+  "description": "A React component slot-fill system for flexible component composition",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "prepare": "husky install",
+    "prepublishOnly": "pnpm run build",
+    "changeset": "cliff-jumper",
+    "version": "cliff-jumper version",
+    "release": "cliff-jumper publish",
+    "bump": "pnpm changeset && pnpm version && git push --follow-tags",
+    "ci:version": "pnpm version",
+    "ci:publish": "pnpm publish --no-git-checks",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/slot-fill.git"
+  },
+  "keywords": [
+    "react",
+    "slots",
+    "fill",
+    "composition",
+    "components"
+  ],
+  "author": "Sandesh Pandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/slot-fill/issues"
+  },
+  "homepage": "https://github.com/username/slot-fill#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@favware/cliff-jumper": "^1.10.0",
+    "commitizen": "^4.3.0",
+    "@testing-library/jest-dom": "^6.1.3",
+    "@testing-library/react": "^14.0.0",
+    "@types/jest": "^29.5.4",
+    "@types/react": "^18.2.21",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "jest": "^29.6.4",
+    "jest-environment-jsdom": "^29.6.4",
+    "lint-staged": "16.1.5",
+    "prettier": "^3.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-jest": "^29.1.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*": "prettier --ignore-unknown --write",
+    "*.{mjs,js,ts,tsx}": "eslint --fix --ext mjs,js,ts,tsx"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
