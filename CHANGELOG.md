@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.2.2](https://github.com/frstycodes/slot-fill/compare/v0.2.1...v0.2.2) - (2025-08-11)
+
+## 📝 Documentation
+
+- Update repository URLs to frstycodes/slot-fill ([e6fd44a](https://github.com/frstycodes/slot-fill/commit/e6fd44a0e0184be6cc85d96123f01a3679dc534b))
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
 # [0.2.1](https://github.com/frstycodes/slot-fill/compare/v0.2.0...v0.2.1) - (2025-08-11)
 
 ## 🏠 Refactor
