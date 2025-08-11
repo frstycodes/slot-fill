@@ -1,6 +1,6 @@
 {
   "name": "@frsty/slot-fill",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A React component slot-fill system for flexible component composition",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

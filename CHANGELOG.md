@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.2.3](https://github.com/frstycodes/slot-fill/compare/v0.2.2...v0.2.3) - (2025-08-11)
+
+## 📝 Documentation
+
+- Clarify type safety in CardSlotManager usage comments ([8ade34b](https://github.com/frstycodes/slot-fill/commit/8ade34b533844ae5bf725b7c52764da56ef7f296))
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
 # [0.2.2](https://github.com/frstycodes/slot-fill/compare/v0.2.1...v0.2.2) - (2025-08-11)
 
 ## 📝 Documentation
