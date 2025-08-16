@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# [0.2.4](https://github.com/frstycodes/slot-fill/compare/v0.2.3...v0.2.4) - (2025-08-16)
+
+## 📝 Documentation
+
+- Add bundle size and key features ([3a18e60](https://github.com/frstycodes/slot-fill/commit/3a18e60572c1d3ae9834500751975202f5ea6e1f))
+
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
 # [0.2.3](https://github.com/frstycodes/slot-fill/compare/v0.2.2...v0.2.3) - (2025-08-11)
 
 ## 📝 Documentation
