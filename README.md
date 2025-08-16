@@ -3,8 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/@frsty/slot-fill.svg)](https://www.npmjs.com/package/@frsty/slot-fill)
 [![npm downloads](https://img.shields.io/npm/dm/@frsty/slot-fill.svg)](https://www.npmjs.com/package/@frsty/slot-fill)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/@frsty/slot-fill)](https://bundlephobia.com/package/@frsty/slot-fill)
 
-A lightweight React component slot-fill system for flexible component composition.
+A lightweight React component slot-fill system for flexible component composition (~2.5KB minified).
 
 ## Installation
 
@@ -22,6 +23,13 @@ pnpm add @frsty/slot-fill
 ## Overview
 
 `@frsty/slot-fill` provides a simple mechanism for creating composable components where content can be distributed to specific "slots" within a parent component. This pattern is particularly useful for building flexible UI components that need to accept different content in different areas.
+
+### Key Features
+
+- 🪶 **Tiny footprint**: Only ~2.5KB minified, ~1KB gzipped
+- 🧩 Type-safe slot management with TypeScript
+- 🚫 Zero dependencies
+- 🔄 Compatible with React 16.8+ (requires Hooks)
 
 ## Usage
 
